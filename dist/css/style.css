@@ -1,0 +1,204 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.uk-container {
+  margin: 0px auto;
+}
+
+.tag-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 16px 32px;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tag-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tag-link__icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18px;
+}
+
+.base-btn {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 24px 32px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 8px;
+  background-color: #fff;
+  font-weight: 600;
+  color: #000;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.base-btn:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #000;
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.section-infodigit {
+  padding: 64px 0px;
+  background-color: #D3D4DA;
+}
+
+.infodigit-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+.infodigit-main-card {
+  background-color: #6BA1EF;
+  padding: 64px;
+  border-radius: 16px;
+  position: relative;
+  width: 70%;
+}
+.infodigit-main-card__bg {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 100%;
+}
+.infodigit-main-card__bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.infodigit-main-card__content {
+  width: 65%;
+  position: relative;
+  z-index: 9999;
+}
+.infodigit-main-card__title {
+  margin-top: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.infodigit-main-card__text {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.infodigit-list {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+
+.infodigit-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 32px;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: skyblue;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  background-size: cover;
+}
+.infodigit-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.infodigit-card:first-child {
+  background: url(../img/common/Rectangle\ 425.png) no-repeat center top;
+}
+.infodigit-card:nth-child(2) {
+  background: url(../img/common/Rectangle\ 4261.png) no-repeat center top;
+}
+.infodigit-card:nth-child(3) {
+  background: url(../img/common/Rectangle\ 425.png) no-repeat center top;
+}
+.infodigit-card:hover {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  background-image: none;
+  background-color: #808394;
+}
+.infodigit-card__icon {
+  position: relative;
+  z-index: 9999;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.infodigit-card__title {
+  position: relative;
+  z-index: 9999;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
