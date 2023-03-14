@@ -4,12 +4,264 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/uikit.min.css">
+    
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <div id="offcanvas-overlay" class="uk-offcanvas mainoverlay-menu">
+        <div class="uk-offcanvas-bar">
+            <div class="uk-container" style="position: relative">
+                <button class="uk-offcanvas-close" type="button" uk-close>
+                    <i class="fa fa-close" style="pointer-events: none;"></i>
+                </button>
+                <div class="mainoverlay-content">
+                    <div class="mainoverlay-content__col">
+                        <div class="mainoverlay-content__head">
+                            <img class="mainoverlay-content__head-image"  src="./img/common/Rectangle 12.png" alt="img1">
+                            <h5>
+                                <img src="./img/common/checksquareorange.png" alt="check">
+                                Система образования
+                            </h5>
+                        </div>
+                        <ul class="mainoverlay-content__accordion">
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">Дошкольное образование</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">ДЕПАРТАМЕНТ ОБРАЗОВАНИЯ И МОЛОДЕЖНОЙ ПОЛИТИКИ ВЛАДИМИРСКОЙ ОБЛАСТИ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">Общее образование</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">департамент ОБРАЗОВАНИЯ И МОЛОДЕЖНОЙ ПОЛИТИКИ ВЛАДИМИРСКОЙ ОБЛАСТИ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">Проффесиональное образование</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">ДЕПАРТАМЕНТ ОБРАЗОВАНИЯ И МОЛОДЕЖНОЙ ПОЛИТИКИ ВЛАДИМИРСКОЙ ОБЛАСТИ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">Дополнительное образование</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">департамент ОБРАЗОВАНИЯ И МОЛОДЕЖНОЙ ПОЛИТИКИ ВЛАДИМИРСКОЙ ОБЛАСТИ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mainoverlay-content__col">
+                        <div class="mainoverlay-content__head">
+                            <img class="mainoverlay-content__head-image" src="./img/common/Rectangle 13.png" alt="img1">
+                            <h5>
+                                <img src="./img/common/checksquareorange.png" alt="check">
+                                ЭЛЕКТРОННОЕ ОБУЧЕНИЕ И ОБУЧЕНИЕ С ПРИМЕНЕНИЕМ ДИСТАНЦИОННЫХ ТЕХНОЛОГИЙ
+                            </h5>
+                        </div>
+                        <ul class="mainoverlay-content__accordion" uk-accordion>
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">Поддержка</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">Для родителей и учащихся</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Для педагогов</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Для руководителей</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="uk-accordion" data-uk-accordion="{showfirst: false}">
+                                <a class="uk-accordion-title" href="#">
+                                    <span class="accordion-item__text">ПОРТАЛЫ ОБРАЗОВАТЕЛЬНЫХ ОРГАНИЗАЦИЙ В РЕГИОНАЛЬНОЙ СИСТЕМЕ ЭЛЕКТРОННОГО И ДИСТАНЦИОННОГО ОБУЧЕНИЯ ВЛАДИМИРСКОЙ ОБЛАСТИ</span>
+                                </a>
+                                <div class="uk-accordion-content">
+                                    <ul class="uk-accordion-content__links">
+                                        <li>
+                                            <a href="#">ДЕПАРТАМЕНТ ОБРАЗОВАНИЯ И МОЛОДЕЖНОЙ ПОЛИТИКИ ВЛАДИМИРСКОЙ ОБЛАСТИ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mainoverlay-content__search">
+                            <div class="form-input form-input_ghost_white form-input_search">
+                                <input type="text" placeholder="Поиск по сайту">
+                                <a href="#" class="search-link">
+                                    <img src="./img/common/search-white.png" alt="search">
+                                </a>
+                            </div>
+                            <div class="mainoverlay-content__search-result">
+                                <a href="#" class="search-card">
+                                    <div class="search-card__image">
+                                        <img src="./img/common/search1.png" alt="search-img">
+                                    </div>
+                                    <p>Результат поиска. Наименование материала</p>
+                                </a>
+                                <a href="#" class="search-card">
+                                    <div class="search-card__image">
+                                        <img src="./img/common/search2.png" alt="search-img">
+                                    </div>
+                                    <p>Результат поиска. Наименование материала</p>
+                                </a>
+                            </div>
+                            <a href="#" class="search-result-btn">Все результаты поиска</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="uk-container">
+            <div class="header-top">
+                <div class="header-top__logowrap">
+                    <a href="#offcanvas-overlay" class="header-btn__menu" type="button" data-uk-offcanvas="{mode:'none'}">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <a href="/" class="header-logo">
+                        <div class="header-logo__image">
+                            <img src="./img/common/logo.png" alt="Логотип">
+                        </div>
+                        <p class="header-logo__text">Информационный портал <br> «Электронное образование Владимирской области»</p>
+                    </a>
+                </div>
+                
+                <div class="header-actions">
+                    <button class="btn btn-ghost bth-blind btn-withicon">
+                        <div class="btn-icon">
+                            <img src="./img/common/eye-blue.png" alt="eye">
+                        </div>
+                        <span>Версия для слабовидящих</span>
+                    </button>
+                    <button class="btn btn-lite btn-withicon">
+                        <div class="btn-icon">
+                            <img src="./img/common/user.png" alt="user">
+                        </div>
+                        <span>Авторизация</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="uk-container">
+                <nav class="header-menu">
+                    <ul class="header-menu">
+                        <li class="header-menu__item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                            <a href="/parent.html">Министерство</a>
+                            <ul class="uk-dropdown header-dropdown">
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                                    <a href="#">Деятельность 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Деятельность 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                            <a href="#">Деятельность</a>
+                            <ul class="uk-dropdown header-dropdown">
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                                    <a href="#">Деятельность 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                                    <a href="#">Деятельность 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                                    <a href="#">Деятельность 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                            <a href="#">Документы</a>
+                            <ul class="uk-dropdown header-dropdown">
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                            </ul>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#">Контакты</a>
+                        </li>
+                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                            <a href="#">Пресс центр</a>
+                            <ul class="uk-dropdown header-dropdown">
+                                <li>
+                                    <a href="#">Деятельность</a>
+                                <li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header-search">
+                        <a href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="offer">
+        <div class="offer-bg">
+            <img src="./img/common/Ellipse-offer.png" alt="offerbg">
+        </div>
+        <div class="uk-container">
+            <div class="offer-content">
+                <img src="img/common/pupil.png" alt="pupil">
+                <h1>
+                    Министерство образования и молодежной политики Владимирской области
+                </h1>
+            </div>
+        </div>
+    </section>
+
     <section class="section-infodigit">
         <div class="uk-container">
             <div class="infodigit-wrap">
@@ -41,7 +293,7 @@
                             Организация дистанционного обучения в регионе
                         </h3>
                         <div class="infodigit-card__icon">
-                            <img src="img/common/Vector 192.png" alt="arrow">
+                            <img src="img/common/arrow.png" alt="arrow">
                         </div>
                     </a>
                     <a href="#" class="infodigit-card">
@@ -49,7 +301,7 @@
                             Массовые социально-значимые услуги в сфере образования
                         </h3>
                         <div class="infodigit-card__icon">
-                            <img src="img/common/Vector 192.png" alt="arrow">
+                            <img src="img/common/arrow.png" alt="arrow">
                         </div>
                     </a>
                     <a href="#" class="infodigit-card">
@@ -57,14 +309,354 @@
                             Информация о короновирусной инфекции
                         </h3>
                         <div class="infodigit-card__icon">
-                            <img src="img/common/Vector 192.png" alt="arrow">
+                            <img src="img/common/arrow.png" alt="arrow">
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="base-section usefull-section">
+        <div class="uk-container">
+            <h2 class="base-section__title">Полезно посмотреть</h2>
+            <div class="usefull-wrap">
+                <div class="usefull-card">
+                    <div class="usefull-card__bg">
+                        <img src="./img/common/bg1.png" alt="bg">
+                    </div>
+                    <div class="usefull-card__tag">
+                        <img src="./img/common/gosuslugi.png" alt="gosuslugi">
+                    </div>
+                    <h4 class="usefull-card__title">
+                        Не убран мусор, яма на дороге, не горит фонарь?
+                    </h4>
+                    <p class="usefull-card__text">
+                        Столкнулись с проблемой - сообщите о ней!
+                    </p>
+                    <a href="" class="usefull-card__btn base-btn">Сообщить опроблеме</a>
+                </div>
+
+                <div class="usefull-card">
+                    <div class="usefull-card__bg usefull-card__bg_right">
+                        <img src="./img/common/bg2.png" alt="bg">
+                    </div>
+                    <div class="usefull-card__tag">
+                        <img src="./img/common/gosuslugi.png" alt="gosuslugi">
+                    </div>
+                    <h4 class="usefull-card__title">
+                        МОЙ ВЫБОР, МОЕ БУДУЩЕЕ
+                    </h4>
+                    <p class="usefull-card__text">
+                        Общественное голосование на портале Госуслуг
+                    </p>
+                    <a href="" class="usefull-card__btn base-btn">Участвовать</a>
+                </div>
+
+                <div class="usefull-card usefull-card__act">
+                    <h4 class="usefull-card__title">
+                        <span>
+                            <img src="./img/common/docicon.png" alt="icon">
+                        </span>
+                        ХОТИТЕ БЫТЬ В КУРСЕ АКТУАЛЬНЫХ НОВОСТЕЙ РЕГИОНА?
+                    </h4>
+                    <p class="usefull-card__text">
+                        Подпишитесь на персональную новостную рассылку
+                    </p>
+                    <a href="" class="usefull-card__btn base-btn base-btn_orange">Подписаться</a>
+                </div>
+            </div>
+            <div class="usefull-help__cards">
+                <a href="#" class="orange-card">
+                    <div class="orange-card__head">
+                        <img src="./img/common/business.png" alt="business">
+                        <p class="orange-card__head-link">
+                            <span>drugoedelo.ru</span>
+                            <span class="arrow-btn"></span>
+                        </p>
+                    </div>
+                    <h3 class="orange-card__title">Другое дело</h3>
+                    <p class="orange-card__text">
+                        проект-агрегатор, который собирает добрые, полезные, развивающие и интересные дела в одном месте!
+                    </p>
+                </a>
+                <a href="#" class="orange-card">
+                    <div class="orange-card__head">
+                        <img src="./img/common/talk.png" alt="talk">
+                        <p class="orange-card__head-link">
+                            <span>объясняем.рф</span>
+                            <span class="arrow-btn"></span>
+                        </p>
+                    </div>
+                    <h3 class="orange-card__title">Объясняем.рф</h3>
+                    <p class="orange-card__text">
+                        Официальный интернет-ресурс для информирования о социально-экономической ситуации в России.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="base-section news-anounce">
+        <div class="news-bg">
+            <img src="./img/common/news-bg.png" alt="news-bg">
+        </div>
+        <div class="uk-container">
+            <h2 class="base-section__title">Новости и анонсы</h2>
+            <div class="news-anounce-wrap">
+                <div class="news-main-card">
+                    <div class="news-main-card__head">
+                        <div class="base-tag base-tag_blue">главные новости</div>
+                        <a href="#" class="news-main-card__link">
+                            Все новости
+                            <img src="./img/common/maximize-blue.png" alt="maximize">
+                        </a>
+                    </div>
+                    <div class="news-main-card__slider">
+                        <div class="news-main-card__slider-card">
+                            <div class="news-main-card__slider-card__img">
+                                <img src="./img/common/slider1.png" alt="slide1">
+                            </div>
+                            <div class="news-main-card__slider-card__content">
+                                <div class="news-main-card__slider-card__head">
+                                    <span class="datefield">15.02.2023</span>
+                                    <a href="#">
+                                        <img src="./img/common/maximize-orange.png" class="orange-arrow" alt="arrow">
+                                    </a>
+                                </div>
+                                <p>
+                                    Международный конкурс солдатской и военно-патриотической песни «Вспомним, ребята, мы Афганистан»
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="news-main-card__slider-card">
+                            <div class="news-main-card__slider-card__img">
+                                <img src="./img/common/slider2.png" alt="slide1">
+                            </div>
+                            <div class="news-main-card__slider-card__content">
+                                <div class="news-main-card__slider-card__head">
+                                    <span class="datefield">15.02.2023</span>
+                                    <a href="#">
+                                        <img src="./img/common/maximize-orange.png" class="orange-arrow" alt="arrow">
+                                    </a>
+                                </div>
+                                <p>
+                                    15 февраля детский технопарк «Кванториум-33» празднует день рождения – ему исполняется шесть лет
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="news-main-card__slider-card">
+                            <div class="news-main-card__slider-card__img">
+                                <img src="./img/common/slider1.png" alt="slide1">
+                            </div>
+                            <div class="news-main-card__slider-card__content">
+                                <div class="news-main-card__slider-card__head">
+                                    <span class="datefield">15.02.2023</span>
+                                    <a href="#">
+                                        <img src="./img/common/maximize-orange.png" class="orange-arrow" alt="arrow">
+                                    </a>
+                                </div>
+                                <p>
+                                    Международный конкурс солдатской и военно-патриотической песни «Вспомним, ребята, мы Афганистан»
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="news-main-card__slider-card">
+                            <div class="news-main-card__slider-card__img">
+                                <img src="./img/common/slider2.png" alt="slide1">
+                            </div>
+                            <div class="news-main-card__slider-card__content">
+                                <div class="news-main-card__slider-card__head">
+                                    <span class="datefield">15.02.2023</span>
+                                    <a href="#">
+                                        <img src="./img/common/maximize-orange.png" class="orange-arrow" alt="arrow">
+                                    </a>
+                                </div>
+                                <p>
+                                    15 февраля детский технопарк «Кванториум-33» празднует день рождения – ему исполняется шесть лет
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-sidebar">
+                    <div class="news-sidebar__head">
+                        <div class="base-tag base-tag_orange">Анонсы</div>
+                        <a href="#" class="news-main-card__link">
+                            Все анонсы
+                            <img src="./img/common/maximize-orange.png" alt="maximize">
+                        </a>
+                    </div>
+                    <div class="news-sidebar__list">
+                        <div class="news-sidebar__item">
+                            Межрегиональный форум на тему: <b>«Проблемы современной экономики и прикладные исследования»</b>
+                        </div>
+                        <div class="news-sidebar__item">
+                            Областная олимпиада <b>по программированию на языке Python</b> среди студентов профессиональных образовательных организаций
+                        </div>
+                        <div class="news-sidebar__item">
+                            Всероссийский форум «Педагоги России: инновации в образовании» проводит <b>онлайн-марафон «Построение модели государственно-общественного управления в образовательной организации»</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="base-section main-project-section">
+        <div class="uk-container">
+            <h2 class="base-section__title">
+                КЛЮЧЕВЫЕ ПРОЕКТЫ
+            </h2>
+            <div class="main-project-section__head">
+                <a href="#" class="white-card">
+                    <div class="white-card__image">
+                        <img src="./img/common/whitecard1.png" alt="whitecard">
+                    </div>
+                    <div class="white-card__content">
+                        <h3>
+                            Кванториум-33
+                            <img src="./img/common/maximize-blue.png" alt="arrow">
+                        </h3>
+                        <p>
+                            Уникальная среда для ускоренного развития ребенка по актуальным научно-исследовательским и инженерно-техническим направлениям 
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="white-card">
+                    <div class="white-card__image">
+                        <img src="./img/common/whitecard2.png" alt="whitecard">
+                    </div>
+                    <div class="white-card__content">
+                        <h3>
+                            WorldSkillsRussia
+                            <img src="./img/common/maximize-blue.png" alt="arrow">
+                        </h3>
+                        <p>
+                            Агентство развития профессионального мастерства
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="main-project-section__list">
+                <a href="#" class="card-withicon">
+                    <div class="card-withicon__image">
+                        <img src="./img/common/Frame 70.png" alt="img">
+                    </div>
+                    <div class="card-withicon__content">
+                        <h4>Запись в детский сад</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+                <a href="#" class="card-withicon">
+                    <div class="card-withicon__image">
+                        <img src="./img/common/Frame 70 (1).png" alt="img">
+                    </div>
+                    <div class="card-withicon__content">
+                        <h4>Электронные учебники</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+                <a href="#" class="card-withicon">
+                    <div class="card-withicon__image">
+                        <img src="./img/common/Frame 70 (2).png" alt="img">
+                    </div>
+                    <div class="card-withicon__content">
+                        <h4>Дистанционное и электронное обучение</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+                <a href="#" class="card-withicon card-grey">
+                    <div class="card-withicon__content">
+                        <h4>Платформа сайтов образовательных учреждений</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+                <a href="#" class="card-withicon card-grey">
+                    <div class="card-withicon__content">
+                        <h4>Навигатор дополнительного образования</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+                <a href="#" class="card-withicon card-grey">
+                    <div class="card-withicon__content">
+                        <h4>Электронное образование Владимирской области</h4>
+                        <span class="arrow-btn"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="base-section links-section">
+        <div class="uk-container">
+            <h2 class="base-section__title">ВАЖНЫЕ ССЫЛКИ</h2>
+            <div class="links-section__slider">
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/5_ere_1 1.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/gia 1.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/path14.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/логотип_0002_Слой-4 1.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/gia 1.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/path14.png" alt="img">
+                </a>
+                <a href="#" class="links-section__item">
+                    <img src="./img/links/логотип_0002_Слой-4 1.png" alt="img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer base-section">
+        <div class="uk-container">
+          <div class="footer-links">
+            <a href="#" class="footer-links__item">
+                ФЦП “Развитие образования” на 2016-2020 годы
+            </a>
+            <a href="#" class="footer-links__item">
+                Государственные услуги
+            </a>
+            <a href="#" class="footer-links__item">
+                Министерство образования и науки РФ
+            </a>
+            <a href="#" class="footer-links__item">
+                Федеральная служба по надзору в сфере образования и науки
+            </a>
+          </div>  
+          <div class="footer__foot">
+            <p>
+                Официальный ресурс Министерства образования и молодежной политики Владимирской области.© <br>
+                2011 - 2023 Министерство образования и молодежной политики Владимирской области. Все права защищены.
+            </p>
+            <div class="footer__foot__social">
+                <a href="#" class="vk_link">
+                    <img src="./img/common/vk.png" alt="vk">
+                </a>
+                <a href="#" class="ok_link">
+                    <img src="./img/common/ok.png" alt="ok">
+                </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/uikit.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
