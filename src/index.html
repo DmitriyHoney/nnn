@@ -14,7 +14,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="offcanvas-overlay" class="uk-offcanvas mainoverlay-menu">
+    <div id="offcanvas-overlay" class="mainoverlay-menu" uk-offcanvas>
         <div class="uk-offcanvas-bar">
             <div class="uk-container" style="position: relative">
                 <button class="uk-offcanvas-close" type="button" uk-close>
@@ -152,7 +152,7 @@
         <div class="uk-container">
             <div class="header-top">
                 <div class="header-top__logowrap">
-                    <a href="#offcanvas-overlay" class="header-btn__menu" type="button" data-uk-offcanvas="{mode:'none'}">
+                    <a href="#offcanvas-overlay" class="header-btn__menu" type="button" uk-toggle>
                         <i class="fa fa-bars"></i>
                     </a>
                     <a href="/" class="header-logo">
@@ -186,9 +186,10 @@
                         <li class="header-menu__item">
                             <a href="#">Главная</a>
                         </li>
-                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                        
+                        <li class="header-menu__item header-menu__item_childs">
                             <a href="/parent.html">Министерство</a>
-                            <ul class="uk-dropdown header-dropdown">
+                            <ul class="header-dropdown" uk-dropdown>
                                 <li>
                                     <a href="#">Деятельность</a>
                                 <li>
@@ -199,9 +200,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                        <li class="header-menu__item header-menu__item_childs">
                             <a href="#">Деятельность</a>
-                            <ul class="uk-dropdown header-dropdown">
+                            <ul class="header-dropdown" uk-dropdown>
                                 <li>
                                     <a href="#">Деятельность</a>
                                 <li>
@@ -219,9 +220,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                        <li class="header-menu__item header-menu__item_childs">
                             <a href="#">Документы</a>
-                            <ul class="uk-dropdown header-dropdown">
+                            <ul class="header-dropdown" uk-dropdown>
                                 <li>
                                     <a href="#">Деятельность</a>
                                 <li>
@@ -230,9 +231,9 @@
                         <li class="header-menu__item">
                             <a href="#">Контакты</a>
                         </li>
-                        <li class="header-menu__item header-menu__item_childs" data-uk-dropdown>
+                        <li class="header-menu__item header-menu__item_childs">
                             <a href="#">Пресс центр</a>
-                            <ul class="uk-dropdown header-dropdown">
+                            <ul class="header-dropdown" uk-dropdown>
                                 <li>
                                     <a href="#">Деятельность</a>
                                 <li>

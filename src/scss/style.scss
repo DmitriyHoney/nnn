@@ -267,10 +267,12 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
-
+#offcanvas-overlay.mainoverlay-menu .uk-offcanvas-close svg {
+    display: none;
+}
 #offcanvas-overlay.mainoverlay-menu {
     & .uk-offcanvas-bar {
-        width: 100%;
+        width: 100vw;
         background: rgba(33, 34, 39, 0.85);
         backdrop-filter: blur(8px);
     }
